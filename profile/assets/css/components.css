@@ -36,7 +36,7 @@
    position: relative;
    display: inline-flex;
    border-radius: 50%;
-   background: url("../img/DSC07033-Cut-Color-1080.jpg") center center no-repeat;
+   background: url("../img/portrait-1.jpg") center center no-repeat;
    background-size: cover;
    width: clamp(4.5em, 6.5vw, 8em);
    height: clamp(4.5em, 6.5vw, 8em);

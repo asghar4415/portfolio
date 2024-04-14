@@ -1473,6 +1473,7 @@ main.touch .main-wrap {
 .work-tiles ul li a .flex-col:nth-child(1) {
    width: 100%;
    padding-bottom: var(--gap-padding);
+   /* margin-bottom: 30rem; */
 }
 
 .work-tiles ul li a .flex-col:nth-child(2) {
@@ -1498,6 +1499,7 @@ main.touch .main-wrap {
    position: relative;
    background: var(--color-lightgray);
    overflow: hidden;
+   /* height: 60%; */
 }
 
 .work-tiles ul li a .tile-image .overlay-image { 
@@ -1513,9 +1515,21 @@ main.touch .main-wrap {
 .work-tiles ul li a .tile-image::before {
    display: block;
    content: "";
-   padding-top: 100%;
+   padding-top: 60%;
+}
+.imggg
+{
+   height: 60%;
+   width: 100%;
 }
 
+.imgggg {
+   width: 100%;
+   left: 0;
+   transform: scale(1) rotate(0.001deg);
+   transition: var(--animation-primary);
+   will-change: transform;
+}
 .work-tiles ul li a h4 {
    position: relative;
    display: block;
@@ -1584,9 +1598,9 @@ main.touch .main-wrap {
       padding-top: 0;
    }
 
-   .work-tiles-home .container ul li:nth-child(3){
+   /* .work-tiles-home .container ul li:nth-child(3){
       display: none;
-   }
+   } */
 
    .work-tiles-home .container ul li:nth-child(4){
       display: none;
@@ -3594,5 +3608,13 @@ main.touch .case-intro-image .btn-wrap {
 
 .block-button .row .flex-col:last-child {
    margin-right: 0;
+}
+
+
+.projects-image 
+{
+   width: 100%;
+   padding-bottom: var(--gap-padding);
+
 }
 
