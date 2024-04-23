@@ -2187,7 +2187,11 @@ main.touch .main-wrap {
 .about-services .row:nth-child(2) {
    width: calc(100% + calc(var(--container-padding) / 1.5));
    margin-left: calc(var(--container-padding) / -1.5);
+  
+
+
 }
+
 
 .about-services .row:nth-child(2) .flex-col {
    width: 33.333%;
