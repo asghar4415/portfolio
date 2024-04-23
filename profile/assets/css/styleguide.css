@@ -539,6 +539,7 @@ video.overlay {
 .btn-link .btn-text {
     padding: 0 calc(var(--gap-padding) / 2);
     position: relative;
+    /* color: #000; */
 }
 
 .btn-link .btn-click::after {
@@ -579,6 +580,7 @@ video.overlay {
 .theme-dark .btn-link .btn-text {
     color: var(--color-white);
 }
+
 
 .theme-dark .btn-link .btn-click::after {
     background: var(--color-white);
@@ -666,6 +668,18 @@ video.overlay {
 
 .btn-link.btn-left-top .credit {
     padding-right: .21em;
+}
+@media screen and (max-width: 540px){
+    .btn-link.btn-left-top .credit {
+        padding-right: .21em;
+        color: var(--color-dark);
+    }
+    .btn-link.btn-left-top .cbd {
+        overflow: hidden;
+        position: relative;
+        color: var(--color-dark);
+    }
+    
 }
 
 .btn-link.btn-left-top .credit span {
